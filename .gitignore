@@ -1,2 +1,8 @@
-__pycache__/
-*.egg-info/
+/ui24rsc/__pycache__/
+/test/__pycache__/
+
+/dist/
+
+/*.egg-info/
+
+/.pytest_cache/
