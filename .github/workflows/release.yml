@@ -15,20 +15,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Get version from git tag
-        id: get_version
-        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/v}
-
       - name: Set package version in setup.cfg
-        run: sed -i 's/^version = 0$/version = ${{ steps.get_version.outputs.VERSION }}/' setup.cfg
+        run: sed -i "s/^version = 0$/version = ${GITHUB_REF#refs/tags/v}/" setup.cfg
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.x
-
-      - name: Display Python version # TODO is this necessary?
-        run: python --version
 
       - name: Install dependencies
         run: |
