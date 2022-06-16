@@ -120,7 +120,9 @@ def objsort(obj):
     object
     '''
     if type(obj) is dict:
-        if next(iter(obj)) == '0':
+        if len(obj) == 0:
+            return obj
+        elif next(iter(obj)) == '0':
             # Numerical sorting
             return {k: objsort(v)
                     for k, v in sorted(obj.items(), key=lambda x: int(x[0]))}
