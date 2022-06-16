@@ -1,0 +1,7877 @@
+firmware: 3.3.8293-ui24
+flavour: '1'
+model: ui24
+schema: '6'
+type: 8ch
+LOCAL:
+  meout: -1
+  me: []
+  viewGroups:
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  viewGroupsNames:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+a:
+  '0':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '1':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '2':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '3':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '4':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '5':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '6':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '7':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '8':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '9':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    invert: 0
+    link2master: 0
+    matrix: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    stereoIndex: -1
+    vca: -1
+    afs:
+      clearall: 0
+      clearfixed: 0
+      clearlive: 0
+      cmode: 0
+      enabled: 0
+      fmode: 0
+      livelift: 0
+      logic: 1
+      numfixed: 6
+      numtotal: 12
+      sensitivity: 0.5
+      eq:
+        '0': 1000.0000000000,116.0000000000,0.0000000000,0
+        '1': 1000.0000000000,116.0000000000,0.0000000000,0
+        '2': 1000.0000000000,116.0000000000,0.0000000000,0
+        '3': 1000.0000000000,116.0000000000,0.0000000000,0
+        '4': 1000.0000000000,116.0000000000,0.0000000000,0
+        '5': 1000.0000000000,116.0000000000,0.0000000000,0
+        '6': 1000.0000000000,116.0000000000,0.0000000000,0
+        '7': 1000.0000000000,116.0000000000,0.0000000000,0
+        '8': 1000.0000000000,116.0000000000,0.0000000000,0
+        '9': 1000.0000000000,116.0000000000,0.0000000000,0
+        '10': 1000.0000000000,116.0000000000,0.0000000000,0
+        '11': 1000.0000000000,116.0000000000,0.0000000000,0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      hpf: 0
+      linked: 0
+      lpf: 1
+      prmod: 0
+      prname: ''
+      peak:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+afs:
+  enabled: 1
+automix:
+  time: 0.2015580881
+  a:
+    'on': 0
+  b:
+    'on': 0
+casc:
+  '0':
+    src: ''
+  '1':
+    src: ''
+  '2':
+    src: ''
+  '3':
+    src: ''
+  '4':
+    src: ''
+  '5':
+    src: ''
+  '6':
+    src: ''
+  '7':
+    src: ''
+  '8':
+    src: ''
+  '9':
+    src: ''
+  '10':
+    src: ''
+  '11':
+    src: ''
+  '12':
+    src: ''
+  '13':
+    src: ''
+  '14':
+    src: ''
+  '15':
+    src: ''
+  '16':
+    src: ''
+  '17':
+    src: ''
+  '18':
+    src: ''
+  '19':
+    src: ''
+  '20':
+    src: ''
+  '21':
+    src: ''
+  '22':
+    src: ''
+  '23':
+    src: ''
+  '24':
+    src: ''
+  '25':
+    src: ''
+  '26':
+    src: ''
+  '27':
+    src: ''
+  '28':
+    src: ''
+  '29':
+    src: ''
+  '30':
+    src: ''
+  '31':
+    src: ''
+f:
+  '0':
+    name: ''
+    bpm: 120
+    bypass: 0
+    forceunmute: 0
+    fxtype: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    par1: 0.5
+    par2: 0.400000006
+    par3: 0.5
+    par4: 1
+    par5: 0
+    par6: 0
+    prmod: 0
+    prname: ''
+    smix: 0.7647058824
+    solo: 0
+    span: 0.5
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '1':
+    name: ''
+    bpm: 120
+    bypass: 0
+    forceunmute: 0
+    fxtype: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    par1: 0.5
+    par2: 0.400000006
+    par3: 0.5
+    par4: 1
+    par5: 0
+    par6: 0
+    prmod: 0
+    prname: ''
+    smix: 0.7647058824
+    solo: 0
+    span: 0.5
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '2':
+    name: ''
+    bpm: 120
+    bypass: 0
+    forceunmute: 0
+    fxtype: 1
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    par1: 0
+    par2: 0.5
+    par3: 0.3000000119
+    par4: 1
+    par5: 0
+    par6: 0
+    prmod: 0
+    prname: ''
+    smix: 0.7647058824
+    solo: 0
+    span: 0.5
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '3':
+    name: ''
+    bpm: 120
+    bypass: 0
+    forceunmute: 0
+    fxtype: 3
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    par1: 0.5
+    par2: 0.400000006
+    par3: 0.5
+    par4: 1
+    par5: 0
+    par6: 0
+    prmod: 0
+    prname: ''
+    smix: 0.7647058824
+    solo: 0
+    span: 0.5
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+hw:
+  '0':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '1':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '2':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '3':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '4':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '5':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '6':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '7':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '8':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '9':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '10':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '11':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '12':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '13':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '14':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '15':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '16':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '17':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '18':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+  '19':
+    disablegain: 0
+    gain: 0.09523809524
+    hiz: 0
+    phantom: 0
+hwoutaux:
+  '0':
+    src: a.0
+  '1':
+    src: a.1
+  '2':
+    src: a.2
+  '3':
+    src: a.3
+  '4':
+    src: a.4
+  '5':
+    src: a.5
+  '6':
+    src: a.6
+  '7':
+    src: a.7
+  '8':
+    src: ''
+  '9':
+    src: ''
+hwouthp:
+  '0':
+    src: hp.0
+  '1':
+    src: hp.1
+  '2':
+    src: hp.2
+  '3':
+    src: hp.3
+hwouthpdsp:
+  '0':
+    src: hpdsp.0
+  '1':
+    src: hpdsp.1
+  '2':
+    src: hpdsp.2
+  '3':
+    src: hpdsp.3
+hwoutm:
+  '0':
+    src: m.0
+  '1':
+    src: m.1
+i:
+  '0':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    hiz: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.0
+    solo: 0
+    src: hw.0
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    digitech:
+      amp: 0
+      bass: 0.5
+      cab: 0
+      enabled: 0
+      gain: 0.75
+      level: 0.5
+      mid: 0.5
+      treble: 0.5
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '1':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    hiz: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.1
+    solo: 0
+    src: hw.1
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    digitech:
+      amp: 0
+      bass: 0.5
+      cab: 0
+      enabled: 0
+      gain: 0.75
+      level: 0.5
+      mid: 0.5
+      treble: 0.5
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '2':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.2
+    solo: 0
+    src: hw.2
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '3':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.3
+    solo: 0
+    src: hw.3
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '4':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.4
+    solo: 0
+    src: hw.4
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '5':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.5
+    solo: 0
+    src: hw.5
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '6':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.6
+    solo: 0
+    src: hw.6
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '7':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.7
+    solo: 0
+    src: hw.7
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '8':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.8
+    solo: 0
+    src: hw.8
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '9':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.9
+    solo: 0
+    src: hw.9
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '10':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.10
+    solo: 0
+    src: hw.10
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '11':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.11
+    solo: 0
+    src: hw.11
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '12':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.12
+    solo: 0
+    src: hw.12
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '13':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.13
+    solo: 0
+    src: hw.13
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '14':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.14
+    solo: 0
+    src: hw.14
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '15':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.15
+    solo: 0
+    src: hw.15
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '16':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.16
+    solo: 0
+    src: hw.16
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '17':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.17
+    solo: 0
+    src: hw.17
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '18':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.18
+    solo: 0
+    src: hw.18
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '19':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: ua.19
+    solo: 0
+    src: hw.19
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '20':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    hiz: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: none
+    solo: 0
+    src: none
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    digitech:
+      amp: 0
+      bass: 0.5
+      cab: 0
+      enabled: 0
+      gain: 0.75
+      level: 0.5
+      mid: 0.5
+      treble: 0.5
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '21':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    hiz: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: none
+    solo: 0
+    src: none
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    digitech:
+      amp: 0
+      bass: 0.5
+      cab: 0
+      enabled: 0
+      gain: 0.75
+      level: 0.5
+      mid: 0.5
+      treble: 0.5
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '22':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: none
+    solo: 0
+    src: none
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '23':
+    name: ''
+    amix: 0.5
+    amixgroup: -1
+    color: 0
+    delay: 0
+    disablegain: 0
+    exclude: 0
+    forceunmute: 0
+    gain: 0
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0.5
+    phantom: 0
+    scsrc: none
+    solo: 0
+    src: none
+    stereoIndex: -1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    deesser:
+      enabled: 0
+      freq: 0.773310034
+      ratio: 0.4
+      threshold: 0.46875
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+      lpf:
+        freq: 1
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+l:
+  '0':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    gain: 0.4
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 0
+    phantom: 0
+    scsrc: ua.20
+    solo: 0
+    src: li.0
+    stereoIndex: 0
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '1':
+    name: ''
+    delay: 0
+    forceunmute: 0
+    gain: 0.4
+    instrument: ''
+    invert: 0
+    iosysname: ''
+    mgmask: 0
+    mix: 0
+    mtkrec: 0
+    mute: 0
+    pan: 1
+    phantom: 0
+    scsrc: ua.21
+    solo: 0
+    src: li.1
+    stereoIndex: 1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+m:
+  name: MASTER
+  delayL: 0
+  delayR: 0
+  dim: 0
+  mix: 0.7647058824
+  pan: 0.5
+  afs:
+    clearall: 0
+    clearfixed: 0
+    clearlive: 0
+    cmode: 0
+    enabled: 0
+    fmode: 0
+    livelift: 0
+    logic: 1
+    numfixed: 6
+    numtotal: 12
+    sensitivity: 0.5
+    eq:
+      '0': 1000.0000000000,116.0000000000,0.0000000000,0
+      '1': 1000.0000000000,116.0000000000,0.0000000000,0
+      '2': 1000.0000000000,116.0000000000,0.0000000000,0
+      '3': 1000.0000000000,116.0000000000,0.0000000000,0
+      '4': 1000.0000000000,116.0000000000,0.0000000000,0
+      '5': 1000.0000000000,116.0000000000,0.0000000000,0
+      '6': 1000.0000000000,116.0000000000,0.0000000000,0
+      '7': 1000.0000000000,116.0000000000,0.0000000000,0
+      '8': 1000.0000000000,116.0000000000,0.0000000000,0
+      '9': 1000.0000000000,116.0000000000,0.0000000000,0
+      '10': 1000.0000000000,116.0000000000,0.0000000000,0
+      '11': 1000.0000000000,116.0000000000,0.0000000000,0
+  dyn:
+    bypass: 0
+    linked: 1
+    prmod: 0
+    prname: ''
+    l:
+      attack: 0
+      gain: 0.75
+      hold: 0.158
+      outgain: 0.3334960938
+      ratio: 0
+      release: 0.2490234375
+      softknee: 0
+      threshold: 0.9375
+    r:
+      attack: 0
+      gain: 0.75
+      hold: 0.158
+      outgain: 0.3334960938
+      ratio: 0
+      release: 0.2490234375
+      softknee: 0
+      threshold: 0.9375
+  eq:
+    bypass: 0
+    linked: 1
+    prmod: 0
+    prname: ''
+    hpf:
+      l: 0
+      r: 0
+    lpf:
+      l: 1
+      r: 1
+    peak:
+      l:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+      r:
+        '0': 0.5
+        '1': 0.5
+        '2': 0.5
+        '3': 0.5
+        '4': 0.5
+        '5': 0.5
+        '6': 0.5
+        '7': 0.5
+        '8': 0.5
+        '9': 0.5
+        '10': 0.5
+        '11': 0.5
+        '12': 0.5
+        '13': 0.5
+        '14': 0.5
+        '15': 0.5
+        '16': 0.5
+        '17': 0.5
+        '18': 0.5
+        '19': 0.5
+        '20': 0.5
+        '21': 0.5
+        '22': 0.5
+        '23': 0.5
+        '24': 0.5
+        '25': 0.5
+        '26': 0.5
+        '27': 0.5
+        '28': 0.5
+        '29': 0.5
+        '30': 0.5
+  gate:
+    attack: 0
+    bypass: 1
+    depth: 0
+    enabled: 0
+    hold: 0.3042441765
+    prmod: 0
+    prname: ''
+    release: 0.3150737134
+    thresh: 0
+  l:
+    invert: 0
+  mtx:
+    '0':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '1':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '2':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '3':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '4':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '5':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '6':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '7':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '8':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+    '9':
+      mute: 0
+      pan: 0.5
+      postproc: 1
+      value: 0
+  r:
+    invert: 0
+mg:
+  '0':
+    name: ''
+  '1':
+    name: ''
+  '2':
+    name: ''
+  '3':
+    name: ''
+  '4':
+    name: ''
+  '5':
+    name: ''
+mtk:
+  out:
+    '0': none
+    '1': none
+    '2': none
+    '3': none
+    '4': none
+    '5': none
+    '6': none
+    '7': none
+    '8': none
+    '9': none
+    '10': none
+    '11': none
+    '12': none
+    '13': none
+    '14': none
+    '15': none
+    '16': none
+    '17': none
+    '18': none
+    '19': none
+    '20': none
+    '21': none
+  scout:
+    '0': i.0
+    '1': i.1
+    '2': i.2
+    '3': i.3
+    '4': i.4
+    '5': i.5
+    '6': i.6
+    '7': i.7
+    '8': i.8
+    '9': i.9
+    '10': i.10
+    '11': i.11
+    '12': i.12
+    '13': i.13
+    '14': i.14
+    '15': i.15
+    '16': i.16
+    '17': i.17
+    '18': i.18
+    '19': i.19
+    '20': l.0
+    '21': l.1
+p:
+  '0':
+    name: ''
+    forceunmute: 0
+    mgmask: 0
+    mix: 0
+    mute: 0
+    pan: 0
+    solo: 0
+    stereoIndex: 0
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    dyn:
+      attack: 0.34375
+      autogain: 0
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+  '1':
+    name: ''
+    forceunmute: 0
+    mgmask: 0
+    mix: 0
+    mute: 0
+    pan: 1
+    solo: 0
+    stereoIndex: 1
+    subgroup: -1
+    vca: -1
+    aux:
+      '0':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        post: 0
+        postproc: 1
+        value: 0
+    dyn:
+      attack: 0.34375
+      autogain: 0
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+s:
+  '0':
+    name: ''
+    ducker: 0
+    exclude: 0
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '1':
+    name: ''
+    ducker: 0
+    exclude: 0
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '2':
+    name: ''
+    ducker: 0
+    exclude: 0
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '3':
+    name: ''
+    ducker: 0
+    exclude: 0
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '4':
+    name: ''
+    ducker: 0
+    exclude: 0
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+  '5':
+    name: ''
+    ducker: 0
+    exclude: 0
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    pan: 0.5
+    solo: 0
+    dyn:
+      attack: 0.34375
+      bypass: 0
+      gain: 0.75
+      outgain: 0.3334960938
+      prmod: 0
+      prname: ''
+      ratio: 1
+      release: 0.4887695312
+      softknee: 0
+      threshold: 0.875
+    eq:
+      bypass: 0
+      easy: 0
+      prmod: 0
+      prname: ''
+      b1:
+        freq: 0.3286901902
+        gain: 0.5
+        q: 0.5252185347
+      b2:
+        freq: 0.5584347738
+        gain: 0.5
+        q: 0.5252185347
+      b3:
+        freq: 0.7563259869
+        gain: 0.5
+        q: 0.5252185347
+      b4:
+        freq: 0.887124964
+        gain: 0.5
+        q: 0.5252185347
+      b5:
+        freq: 0.9542171999
+        gain: 0.5
+        q: 0.5252185347
+      hpf:
+        freq: 0
+        slope: 0
+    fx:
+      '0':
+        mute: 0
+        post: 1
+        value: 0
+      '1':
+        mute: 0
+        post: 1
+        value: 0
+      '2':
+        mute: 0
+        post: 1
+        value: 0
+      '3':
+        mute: 0
+        post: 1
+        value: 0
+    gate:
+      attack: 0
+      bypass: 0
+      depth: 0
+      enabled: 1
+      hold: 0.3042441765
+      prmod: 0
+      prname: ''
+      release: 0.3150737134
+      thresh: 0
+    mtx:
+      '0':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '1':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '2':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '3':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '4':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '5':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '6':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '7':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '8':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+      '9':
+        mute: 0
+        pan: 0.5
+        postproc: 1
+        value: 0
+settings:
+  udpcoms: '[]'
+usbdaw:
+  '0':
+    src: m.0
+  '1':
+    src: m.1
+  '2':
+    src: a.0
+  '3':
+    src: a.1
+  '4':
+    src: a.2
+  '5':
+    src: a.3
+  '6':
+    src: a.4
+  '7':
+    src: a.5
+  '8':
+    src: a.6
+  '9':
+    src: a.7
+  '10':
+    src: hw.0
+  '11':
+    src: hw.1
+  '12':
+    src: hw.2
+  '13':
+    src: hw.3
+  '14':
+    src: hw.4
+  '15':
+    src: hw.5
+  '16':
+    src: hw.6
+  '17':
+    src: hw.7
+  '18':
+    src: hw.8
+  '19':
+    src: hw.9
+  '20':
+    src: hw.10
+  '21':
+    src: hw.11
+  '22':
+    src: hw.12
+  '23':
+    src: hw.13
+  '24':
+    src: hw.14
+  '25':
+    src: hw.15
+  '26':
+    src: hw.16
+  '27':
+    src: hw.17
+  '28':
+    src: hw.18
+  '29':
+    src: hw.19
+  '30':
+    src: li.0
+  '31':
+    src: li.1
+v:
+  '0':
+    name: ''
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    solo: 0
+  '1':
+    name: ''
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    solo: 0
+  '2':
+    name: ''
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    solo: 0
+  '3':
+    name: ''
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    solo: 0
+  '4':
+    name: ''
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    solo: 0
+  '5':
+    name: ''
+    forceunmute: 0
+    mgmask: 0
+    mix: 0.7647058824
+    mute: 0
+    solo: 0
+vg:
+  '0':
+    name: ''
+    content: '[]'
+  '1':
+    name: ''
+    content: '[]'
+  '2':
+    name: ''
+    content: '[]'
+  '3':
+    name: ''
+    content: '[]'
+  '4':
+    name: ''
+    content: '[]'
+  '5':
+    name: ''
+    content: '[]'
