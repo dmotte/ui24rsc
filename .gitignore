@@ -1,6 +1,7 @@
 /ui24rsc/__pycache__/
 /test/__pycache__/
 
+/build/
 /dist/
 
 /*.egg-info/
