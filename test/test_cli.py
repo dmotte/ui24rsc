@@ -9,4 +9,4 @@ def test_obj2diff():
     assert equal
 
     assert type(objdiff) is dict
-    assert len(objdiff) == 0  # TODO
+    assert len(objdiff) == 0

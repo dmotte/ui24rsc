@@ -2,9 +2,10 @@
 
 ![device](device.png)
 
-TODO badges for ghactions and pypi
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dmotte/ui24rsc/release?logo=github&style=flat-square)](https://github.com/dmotte/ui24rsc/actions)
+[![PyPI](https://img.shields.io/pypi/v/ui24rsc?logo=python&style=flat-square)](https://pypi.org/project/ui24rsc/)
 
-**Ui24R** **S**napshot **C**onverter
+**Ui24R** **S**napshot **C**onverter.
 
 new way to ui24r snapshots as code. the Soundcraft JSON format is very hard to understand and so manually editing snapshots from code is uncomfortable
 
@@ -32,5 +33,3 @@ diff <(jq --sort-keys < snapshot01.json) <(ui24rsc dots,full snapshot01.yml | jq
 ```
 
 TODO pip3 install -e . --user This will just link the package to the original location, basically meaning any changes to the original package would reflect directly in your environment (https://stackoverflow.com/a/35064498)
-
-TODO version from git tag
