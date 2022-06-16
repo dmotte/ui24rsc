@@ -31,6 +31,6 @@ diff <(jq --sort-keys < default-init.json) <(ui24rsc dots default-init.yml | jq 
 diff <(jq --sort-keys < snapshot01.json) <(ui24rsc dots,full snapshot01.yml | jq --sort-keys)
 ```
 
-TODO pip3 install -e . --user
+TODO pip3 install -e . --user This will just link the package to the original location, basically meaning any changes to the original package would reflect directly in your environment (https://stackoverflow.com/a/35064498)
 
 TODO version from git tag
