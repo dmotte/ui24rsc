@@ -157,29 +157,30 @@ def main(argv=None):
     if argv is None:
         argv = sys.argv
 
-    parser = argparse.ArgumentParser(description='''
-        Converts a Soundcraft Ui24R snapshot file from/to different formats
-    ''')
+    parser = argparse.ArgumentParser(
+        description='Converts a Soundcraft Ui24R snapshot file from/to '
+        'different formats'
+    )
 
     parser.add_argument('actions', metavar='ACTIONS', type=str,
-                        help='''Comma-separated sequence of operations to be
-                        performed. Examples: "diff,tree" "dots,full"
-                        "tree,sort"''')
+                        help='Comma-separated sequence of operations to be '
+                        'performed. Examples: "diff,tree" "dots,full" '
+                        '"tree,sort"')
     parser.add_argument('file_in', metavar='FILE_IN', type=str,
                         nargs='?', default='-',
-                        help='''Input file. If set to "-" then stdin is used
-                        (default: -)''')
+                        help='Input file. If set to "-" then stdin is used '
+                        '(default: -)')
     parser.add_argument('file_out', metavar='FILE_OUT', type=str,
                         nargs='?', default='-',
-                        help='''Output file. If set to "-" then stdout is used
-                        (default: -)''')
+                        help='Output file. If set to "-" then stdout is used '
+                        '(default: -)')
 
     parser.add_argument('-j', '--json', action='store_true',
-                        help='''If present, the output format will be forced to
-                        JSON''')
+                        help='If present, the output format will be forced to '
+                        'JSON')
     parser.add_argument('-y', '--yaml', action='store_true',
-                        help='''If present, the output format will be forced to
-                        YAML''')
+                        help='If present, the output format will be forced to '
+                        'YAML')
 
     args = vars(parser.parse_args(argv[1:]))
 
