@@ -5,7 +5,7 @@
 [![GitHub test workflow](https://img.shields.io/github/actions/workflow/status/dmotte/ui24rsc/test.yml?branch=main&logo=github&label=test&style=flat-square)](https://github.com/dmotte/ui24rsc/actions)
 [![PyPI](https://img.shields.io/pypi/v/ui24rsc?logo=python&style=flat-square)](https://pypi.org/project/ui24rsc/)
 
-**Ui24R** **S**napshot **C**onverter.
+:snake: **Ui24R** **S**napshot **C**onverter.
 
 The official Soundcraft Ui24R JSON snapshot export format is very hard to understand and work with; thus, manually editing mixer snapshots from code can be extremely uncomfortable. This Python script lets you convert snapshots exported from the mixer Web UI to other more human-readable formats and vice versa. It can read/write both _JSON_ and _YAML_ documents.
 
