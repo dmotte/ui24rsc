@@ -5,8 +5,8 @@ name: release
 # repository settings.
 
 on:
-  release:
-    types: [created]
+  push:
+    tags: ["**"]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set package version in setup.cfg
-        run: sed -i "s/^version = 0$/version = ${GITHUB_REF#refs/tags/v}/" setup.cfg
+        run: sed -i "s/^version = 0$/version = ${GITHUB_REF_NAME#v}/" setup.cfg
 
       - name: Set up Python
         uses: actions/setup-python@v4
