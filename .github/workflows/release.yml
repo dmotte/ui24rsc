@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set package version in setup.cfg
         run: sed -i "s/^version = 0$/version = ${GITHUB_REF_NAME#v}/" setup.cfg
