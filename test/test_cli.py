@@ -9,7 +9,7 @@ def test_obj2diff():
     equal, objdiff = ui24rsc.obj2diff({}, {})
 
     assert equal
-    assert type(objdiff) is dict
+    assert isinstance(objdiff, dict)
     assert len(objdiff) == 0
 
     equal, objdiff = ui24rsc.obj2diff(
@@ -35,7 +35,7 @@ def test_obj2diff():
 def test_obj2full():
     objfull = ui24rsc.obj2full({}, {})
 
-    assert type(objfull) is dict
+    assert isinstance(objfull, dict)
     assert len(objfull) == 0
 
     objfull = ui24rsc.obj2full(
@@ -59,7 +59,7 @@ def test_obj2full():
 def test_obj2tree():
     objtree = ui24rsc.obj2tree({})
 
-    assert type(objtree) is dict
+    assert isinstance(objtree, dict)
     assert len(objtree) == 0
 
     objtree = ui24rsc.obj2tree(
@@ -77,7 +77,7 @@ def test_obj2tree():
 def test_obj2dots():
     objdots = ui24rsc.obj2dots({})
 
-    assert type(objdots) is dict
+    assert isinstance(objdots, dict)
     assert len(objdots) == 0
 
     objdots = ui24rsc.obj2dots(
@@ -96,7 +96,7 @@ def test_obj2dots():
 def test_obj2sort():
     obj = ui24rsc.objsort({})
 
-    assert type(obj) is dict
+    assert isinstance(obj, dict)
     assert len(obj) == 0
 
     obj = ui24rsc.objsort(

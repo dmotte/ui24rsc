@@ -1,0 +1,17 @@
+---
+name: main
+
+on:
+  push: # All branches and tags
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  job:
+    permissions: { contents: write }
+    uses: dmotte/misc/.github/workflows/cicd-with-script.yml@main
+    with:
+      path: $GITHUB_ACTION_PATH/../../scripts/cicd/python-pkg.sh
+    secrets:
+      secret01: ${{ secrets.PYPI_API_TOKEN }}
