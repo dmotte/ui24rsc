@@ -2,7 +2,7 @@
 
 ![device](device.png)
 
-[![GitHub test workflow](https://img.shields.io/github/actions/workflow/status/dmotte/ui24rsc/test.yml?branch=main&logo=github&label=test&style=flat-square)](https://github.com/dmotte/ui24rsc/actions)
+[![GitHub main workflow](https://img.shields.io/github/actions/workflow/status/dmotte/ui24rsc/main.yml?branch=main&logo=github&label=main&style=flat-square)](https://github.com/dmotte/ui24rsc/actions)
 [![PyPI](https://img.shields.io/pypi/v/ui24rsc?logo=python&style=flat-square)](https://pypi.org/project/ui24rsc/)
 
 :snake: **Ui24R** **S**napshot **C**onverter.
