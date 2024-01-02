@@ -12,6 +12,6 @@ jobs:
     permissions: { contents: write }
     uses: dmotte/misc/.github/workflows/cicd-with-script.yml@main
     with:
-      path: $GITHUB_ACTION_PATH/../../scripts/cicd/python-pkg.sh
+      script: bash "$(realpath "$GITHUB_ACTION_PATH/../../scripts/cicd/python-pkg.sh")"
     secrets:
       secret01: ${{ secrets.PYPI_API_TOKEN }}
