@@ -37,7 +37,7 @@ And the opposite is:
 ui24rsc dots,full human-friendly.yml official.json
 ```
 
-:information_source: For more details on how to use this command, you can also refer to the help message (`ui24rsc --help`).
+For more details on how to use this command, you can also refer to its help message (`--help`).
 
 ## Development
 
