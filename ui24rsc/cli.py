@@ -182,15 +182,11 @@ def main(argv=None):
                         help='If present, the output format will be forced to '
                         'YAML')
 
-    args = vars(parser.parse_args(argv[1:]))
+    args = parser.parse_args(argv[1:])
+    args.actions = [] if args.actions == '' else \
+        [x.strip().lower() for x in args.actions.split(',')]
 
-    actions = [x.strip().lower() for x in args['actions'].split(',')]
-    file_in = args['file_in']
-    file_out = args['file_out']
-    force_json = args['json']
-    force_yaml = args['yaml']
-
-    if force_json and force_yaml:
+    if args.json and args.yaml:
         print('Error: both --json and --yaml flags specified', file=sys.stderr)
         return 1
 
@@ -202,15 +198,15 @@ def main(argv=None):
 
     ############################################################################
 
-    if file_in == '-':
+    if args.file_in == '-':
         obj = yaml.safe_load(sys.stdin)
     else:
-        with open(file_in, 'r') as f:
+        with open(args.file_in, 'r') as f:
             obj = yaml.safe_load(f)
 
     ############################################################################
 
-    format = 'json' if force_json else 'yaml'
+    format = 'json' if args.json else 'yaml'
 
     funcs = {
         'diff': lambda x: obj2diff(x, objref)[1],
@@ -220,29 +216,29 @@ def main(argv=None):
         'sort': objsort,
     }
 
-    for a in actions:
+    for a in args.actions:
         if a not in funcs:
             print('Unsupported action:', a, file=sys.stderr)
             return 1
-        if a in ['diff', 'tree'] and not force_json:
+        if a in ['diff', 'tree'] and not args.json:
             format = 'yaml'
-        if a in ['full', 'dots'] and not force_yaml:
+        if a in ['full', 'dots'] and not args.yaml:
             format = 'json'
         obj = funcs[a](obj)
 
     ############################################################################
 
     if format == 'json':
-        if file_out == '-':
+        if args.file_out == '-':
             json.dump(obj, sys.stdout)
         else:
-            with open(file_out, 'w') as f:
+            with open(args.file_out, 'w') as f:
                 json.dump(obj, f)
     else:
-        if file_out == '-':
+        if args.file_out == '-':
             yaml.safe_dump(obj, sys.stdout, sort_keys=False)
         else:
-            with open(file_out, 'w') as f:
+            with open(args.file_out, 'w') as f:
                 yaml.safe_dump(obj, f, sort_keys=False)
 
     return 0
