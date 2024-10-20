@@ -11,7 +11,7 @@ The official Soundcraft Ui24R JSON snapshot export format is very hard to unders
 
 > **Note**: this project is specific for **Soundcraft JSON snapshot format**, a.k.a. "_Offline Files_". It does not handle `.uisnapshot` files.
 
-Tested with firmware version **3.3.8293-ui24**.
+> **Important**: this has been tested with the firmware version **3.3.8293-ui24**.
 
 ## Installation
 
