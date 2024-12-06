@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
 import argparse
-from functools import reduce
 import json
 import os
 import sys
+
+from contextlib import ExitStack
+from functools import reduce
 
 import yaml
 
@@ -198,11 +200,11 @@ def main(argv=None):
 
     ############################################################################
 
-    if args.file_in == '-':
-        obj = yaml.safe_load(sys.stdin)
-    else:
-        with open(args.file_in, 'r') as f:
-            obj = yaml.safe_load(f)
+    with ExitStack() as stack:
+        file_in = (sys.stdin if args.file_in == '-'
+                   else stack.enter_context(open(args.file_in, 'r')))
+
+        obj = yaml.safe_load(file_in)
 
     ############################################################################
 
@@ -228,17 +230,13 @@ def main(argv=None):
 
     ############################################################################
 
-    if format == 'json':
-        if args.file_out == '-':
-            json.dump(obj, sys.stdout)
+    with ExitStack() as stack:
+        file_out = (sys.stdout if args.file_out == '-'
+                    else stack.enter_context(open(args.file_out, 'w')))
+
+        if format == 'json':
+            json.dump(obj, file_out)
         else:
-            with open(args.file_out, 'w') as f:
-                json.dump(obj, f)
-    else:
-        if args.file_out == '-':
-            yaml.safe_dump(obj, sys.stdout, sort_keys=False)
-        else:
-            with open(args.file_out, 'w') as f:
-                yaml.safe_dump(obj, f, sort_keys=False)
+            yaml.safe_dump(obj, file_out, sort_keys=False)
 
     return 0
