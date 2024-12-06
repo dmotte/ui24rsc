@@ -28,13 +28,13 @@ The first parameter of this command is `ACTIONS`, a **comma-separated sequence o
 This is a basic example of how to convert from official Soundcraft JSON format to a custom tree-like, human-friendly, differential YAML format:
 
 ```bash
-ui24rsc diff,tree original.json human-friendly.yml
+python3 -mui24rsc diff,tree original.json human-friendly.yml
 ```
 
 And the opposite is:
 
 ```bash
-ui24rsc dots,full human-friendly.yml official.json
+python3 -mui24rsc dots,full human-friendly.yml official.json
 ```
 
 For more details on how to use this command, you can also refer to its help message (`--help`).
@@ -60,17 +60,17 @@ pytest test
 The [`default-init.yml`](ui24rsc/default-init.yml) file was built by exporting the `* Init *` snapshot (from the `Default` show of the Soundcraft Ui24R), which should contain the mixer factory default settings, and then executing the following command:
 
 ```bash
-ui24rsc tree,sort default-init.json default-init.yml
+python3 -mui24rsc tree,sort default-init.json default-init.yml
 ```
 
 If you want to check that the two files are equivalent, you can install [`jq`](https://stedolan.github.io/jq/) on your PC and then run:
 
 ```bash
-diff <(jq --sort-keys < default-init.json) <(ui24rsc dots default-init.yml | jq --sort-keys)
+diff <(jq --sort-keys < default-init.json) <(python3 -mui24rsc dots default-init.yml | jq --sort-keys)
 ```
 
 In general, if you want to see the differences between two snapshot files in different formats, you can use the following command:
 
 ```bash
-diff <(jq --sort-keys < snapshot01.json) <(ui24rsc dots,full snapshot01.yml | jq --sort-keys)
+diff <(jq --sort-keys < snapshot01.json) <(python3 -mui24rsc dots,full snapshot01.yml | jq --sort-keys)
 ```
