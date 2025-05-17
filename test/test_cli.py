@@ -28,8 +28,7 @@ def test_obj2diff():
     )
 
     assert not equal
-    assert json.dumps(objdiff) == \
-        '{"foo": "XYZ", "sub01": {"ho": 3}, "sub02": {"2": 10}}'
+    assert objdiff == {'foo': 'XYZ', 'sub01': {'ho': 3}, 'sub02': {2: 10}}
 
 
 def test_obj2full():
@@ -52,8 +51,12 @@ def test_obj2full():
         },
     )
 
-    assert json.dumps(objfull) == \
-        '{"baz": 123, "foo": "XYZ", "sub01": {"hey": 1, "ho": 3}, "sub02": [4, 5, 10, 7]}'
+    assert objfull == {
+        'baz': 123,
+        'foo': 'XYZ',
+        'sub01': {'hey': 1, 'ho': 3},
+        'sub02': [4, 5, 10, 7],
+    }
 
 
 def test_obj2tree():
@@ -63,15 +66,9 @@ def test_obj2tree():
     assert len(objtree) == 0
 
     objtree = ui24rsc.obj2tree(
-        {
-            'one.two.three': 3,
-            'one.two.six': 6,
-            'one.seven': 7,
-        }
-    )
+        {'one.two.three': 3, 'one.two.six': 6, 'one.seven': 7})
 
-    assert json.dumps(objtree) == \
-        '{"one": {"two": {"three": 3, "six": 6}, "seven": 7}}'
+    assert objtree == {'one': {'two': {'three': 3, 'six': 6}, 'seven': 7}}
 
 
 def test_obj2dots():
@@ -81,16 +78,9 @@ def test_obj2dots():
     assert len(objdots) == 0
 
     objdots = ui24rsc.obj2dots(
-        {
-            'one': {
-                'two': {'three': 3, 'six': 6},
-                'seven': 7,
-            },
-        }
-    )
+        {'one': {'two': {'three': 3, 'six': 6}, 'seven': 7}})
 
-    assert json.dumps(objdots) == \
-        '{"one.two.three": 3, "one.two.six": 6, "one.seven": 7}'
+    assert objdots == {'one.two.three': 3, 'one.two.six': 6, 'one.seven': 7}
 
 
 def test_obj2sort():
@@ -109,5 +99,6 @@ def test_obj2sort():
         }
     )
 
-    assert json.dumps(obj) == \
-        '{"name": "xyz", "a": 456, "b": 123, "sub02": [9, 3, 7], "sub01": {"f": "g", "x": {}}}'
+    # Converting to string here because we need to check the order of the keys
+    assert json.dumps(obj) == '{"name": "xyz", "a": 456, "b": 123, ' \
+        '"sub02": [9, 3, 7], "sub01": {"f": "g", "x": {}}}'
