@@ -222,9 +222,9 @@ def main(argv=None):
         if a not in funcs:
             print('Unsupported action:', a, file=sys.stderr)
             return 1
-        if a in ['diff', 'tree'] and not args.json:
+        if a in ('diff', 'tree') and not args.json:
             format = 'yaml'
-        if a in ['full', 'dots'] and not args.yaml:
+        if a in ('full', 'dots') and not args.yaml:
             format = 'json'
         obj = funcs[a](obj)
 
