@@ -5,7 +5,7 @@ import json
 import ui24rsc
 
 
-def test_obj2diff():
+def test_obj2diff() -> None:
     equal, objdiff = ui24rsc.obj2diff({}, {})
 
     assert equal
@@ -31,7 +31,7 @@ def test_obj2diff():
     assert objdiff == {'foo': 'XYZ', 'sub01': {'ho': 3}, 'sub02': {2: 10}}
 
 
-def test_obj2full():
+def test_obj2full() -> None:
     objfull = ui24rsc.obj2full({}, {})
 
     assert isinstance(objfull, dict)
@@ -59,7 +59,7 @@ def test_obj2full():
     }
 
 
-def test_obj2tree():
+def test_obj2tree() -> None:
     objtree = ui24rsc.obj2tree({})
 
     assert isinstance(objtree, dict)
@@ -71,7 +71,7 @@ def test_obj2tree():
     assert objtree == {'one': {'two': {'three': 3, 'six': 6}, 'seven': 7}}
 
 
-def test_obj2dots():
+def test_obj2dots() -> None:
     objdots = ui24rsc.obj2dots({})
 
     assert isinstance(objdots, dict)
@@ -83,7 +83,7 @@ def test_obj2dots():
     assert objdots == {'one.two.three': 3, 'one.two.six': 6, 'one.seven': 7}
 
 
-def test_obj2sort():
+def test_obj2sort() -> None:
     obj = ui24rsc.objsort({})
 
     assert isinstance(obj, dict)

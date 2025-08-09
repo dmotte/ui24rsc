@@ -7,11 +7,12 @@ import sys
 
 from contextlib import ExitStack
 from functools import reduce
+from typing import Any
 
 import yaml
 
 
-def obj2diff(objfull, objref):
+def obj2diff(objfull: Any, objref: Any) -> tuple[bool, Any]:
     '''
     Converts a snapshot object from Soundcraft Ui24R full format to custom diff
     format using objref as reference object.
@@ -42,7 +43,7 @@ def obj2diff(objfull, objref):
         return True, {}
 
 
-def obj2full(objdiff, objref):
+def obj2full(objdiff: Any, objref: Any) -> Any:
     '''
     Converts a snapshot object from custom diff format to Soundcraft Ui24R full
     format using objref as reference object.
@@ -67,7 +68,7 @@ def obj2full(objdiff, objref):
     return objfull
 
 
-def obj2tree(objdots):
+def obj2tree(objdots: dict) -> dict:
     '''
     Converts a snapshot object from Soundcraft Ui24R dotted format to tree
     format
@@ -89,7 +90,7 @@ def obj2tree(objdots):
     return objtree
 
 
-def obj2dots(objtree, path=''):
+def obj2dots(objtree: Any, path: str = '') -> dict[str, Any]:
     '''
     Converts a snapshot object from tree format to Soundcraft Ui24R dotted
     format
@@ -116,7 +117,7 @@ def obj2dots(objtree, path=''):
     return objdots
 
 
-def objsort(obj):
+def objsort(obj: Any) -> Any:
     '''
     Recursively sorts an object according to special rules. Returns the sorted
     object
@@ -155,7 +156,7 @@ DEFAULT_INIT_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                  'default-init.yml')
 
 
-def main(argv=None):
+def main(argv: list[str] = None) -> int:
     if argv is None:
         argv = sys.argv
 
