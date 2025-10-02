@@ -156,7 +156,7 @@ DEFAULT_INIT_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                  'default-init.yml')
 
 
-def main(argv: list[str] = None) -> int:
+def main(argv: list[str] | None = None) -> int:
     if argv is None:
         argv = sys.argv
 
