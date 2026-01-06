@@ -41,18 +41,20 @@ For more details on how to use this command, you can also refer to its help mess
 
 ## Development
 
-If you want to contribute to this project, you can install the package in **editable** mode:
+If you want to contribute to this project, you can create a Python **virtual environment** ("venv") with the package in **editable** mode:
 
 ```bash
-python3 -mpip install -e . --user
+python3 -mvenv venv
+venv/bin/python3 -mpip install -e .
 ```
 
-This will just link the package to the original location, basically meaning any changes to the original package would reflect directly in your environment ([source](https://stackoverflow.com/a/35064498)).
+This will link the package to the original location, so any changes to the code will reflect directly in your environment ([source](https://stackoverflow.com/a/35064498)).
 
-If you want to run the tests, you'll have to install the `pytest` package and then run:
+If you want to run the tests:
 
 ```bash
-python3 -mpytest test
+venv/bin/python3 -mpip install pytest
+venv/bin/python3 -mpytest test
 ```
 
 ## Other useful stuff
