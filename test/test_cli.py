@@ -4,13 +4,14 @@ import json
 
 import ui24rsc
 
+from util import pfmt
+
 
 def test_obj2diff() -> None:
     equal, objdiff = ui24rsc.obj2diff({}, {})
 
     assert equal
-    assert isinstance(objdiff, dict)
-    assert len(objdiff) == 0
+    assert pfmt(objdiff) == '{}'
 
     equal, objdiff = ui24rsc.obj2diff(
         {
@@ -28,14 +29,17 @@ def test_obj2diff() -> None:
     )
 
     assert not equal
-    assert objdiff == {'foo': 'XYZ', 'sub01': {'ho': 3}, 'sub02': {2: 10}}
+    assert pfmt(objdiff) == pfmt({
+        'foo': 'XYZ',
+        'sub01': {'ho': 3},
+        'sub02': {2: 10},
+    })
 
 
 def test_obj2full() -> None:
     objfull = ui24rsc.obj2full({}, {})
 
-    assert isinstance(objfull, dict)
-    assert len(objfull) == 0
+    assert pfmt(objfull) == '{}'
 
     objfull = ui24rsc.obj2full(
         {
@@ -51,43 +55,45 @@ def test_obj2full() -> None:
         },
     )
 
-    assert objfull == {
+    assert pfmt(objfull) == pfmt({
         'baz': 123,
         'foo': 'XYZ',
         'sub01': {'hey': 1, 'ho': 3},
         'sub02': [4, 5, 10, 7],
-    }
+    })
 
 
 def test_obj2tree() -> None:
     objtree = ui24rsc.obj2tree({})
 
-    assert isinstance(objtree, dict)
-    assert len(objtree) == 0
+    assert pfmt(objtree) == '{}'
 
     objtree = ui24rsc.obj2tree(
         {'one.two.three': 3, 'one.two.six': 6, 'one.seven': 7})
 
-    assert objtree == {'one': {'two': {'three': 3, 'six': 6}, 'seven': 7}}
+    assert pfmt(objtree) == pfmt(
+        {'one': {'two': {'three': 3, 'six': 6}, 'seven': 7}})
 
 
 def test_obj2dots() -> None:
     objdots = ui24rsc.obj2dots({})
 
-    assert isinstance(objdots, dict)
-    assert len(objdots) == 0
+    assert pfmt(objdots) == '{}'
 
     objdots = ui24rsc.obj2dots(
         {'one': {'two': {'three': 3, 'six': 6}, 'seven': 7}})
 
-    assert objdots == {'one.two.three': 3, 'one.two.six': 6, 'one.seven': 7}
+    assert pfmt(objdots) == pfmt({
+        'one.two.three': 3,
+        'one.two.six': 6,
+        'one.seven': 7,
+    })
 
 
 def test_obj2sort() -> None:
     obj = ui24rsc.objsort({})
 
-    assert isinstance(obj, dict)
-    assert len(obj) == 0
+    assert pfmt(obj) == '{}'
 
     obj = ui24rsc.objsort(
         {
@@ -99,6 +105,10 @@ def test_obj2sort() -> None:
         }
     )
 
-    # Converting to string here because we need to check the order of the keys
-    assert json.dumps(obj) == '{"name": "xyz", "a": 456, "b": 123, ' \
-        '"sub02": [9, 3, 7], "sub01": {"f": "g", "x": {}}}'
+    assert pfmt(obj) == pfmt({
+        'name': 'xyz',
+        'a': 456,
+        'b': 123,
+        'sub02': [9, 3, 7],
+        'sub01': {'f': 'g', 'x': {}},
+    })
