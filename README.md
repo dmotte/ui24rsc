@@ -10,6 +10,8 @@
 The official Soundcraft Ui24R JSON snapshot export format is very hard to understand and work with; thus, manually editing mixer snapshots from code can be extremely uncomfortable. This Python script lets you convert snapshots exported from the mixer Web UI to other more human-readable formats and vice versa. It can read/write both _JSON_ and _YAML_ documents.
 
 > **Note**: this project is specific for **Soundcraft JSON snapshot format**, a.k.a. "_Offline Files_". It does not handle `.uisnapshot` files.
+>
+> :new: If you need such functionality, check out this fork: https://github.com/HighTechHarmony/SoundcraftUiSC, which supports _Offline Files_ &harr; `.uisnapshot` conversion, `.uishow` files, and other features.
 
 > **Important**: this has been tested with the firmware version **3.3.8293-ui24**.
 
