@@ -1,4 +1,4 @@
-/venv/
+/.venv/
 
 /ui24rsc/__pycache__/
 /test/__pycache__/
