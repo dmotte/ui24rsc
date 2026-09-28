@@ -70,11 +70,11 @@ python3 -mui24rsc tree,sort default-init.json default-init.yml
 If you want to check that the two files are equivalent, you can install [`jq`](https://stedolan.github.io/jq/) on your PC and then run:
 
 ```bash
-diff <(jq --sort-keys < default-init.json) <(python3 -mui24rsc dots default-init.yml | jq --sort-keys)
+diff -s --color <(jq --sort-keys < default-init.json) <(python3 -mui24rsc dots default-init.yml | jq --sort-keys)
 ```
 
 In general, if you want to see the differences between two snapshot files in different formats, you can use the following command:
 
 ```bash
-diff <(jq --sort-keys < snapshot01.json) <(python3 -mui24rsc dots,full snapshot01.yml | jq --sort-keys)
+diff -s --color <(jq --sort-keys < snapshot01.json) <(python3 -mui24rsc dots,full snapshot01.yml | jq --sort-keys)
 ```
